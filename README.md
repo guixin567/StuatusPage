@@ -7,7 +7,7 @@
         只需要当成一个组件，差不多10行代码搞写
         逻辑很清晰，适合用来做组件化
 ### 效果
-![Alt text](https://github.com/guixin567/StuatusPage/image/main.gif)
+![Alt text](https://github.com/guixin567/StuatusPage/blob/master/image/main.gif)
 ### 使用
 ####  继承BaseStatusPage
     1,实现getLayout方法，根据自己的状态类别进行视图的赋值
