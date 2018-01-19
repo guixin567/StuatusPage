@@ -9,7 +9,7 @@
 ### 效果
 ![Alt text](https://github.com/guixin567/StuatusPage/image/main.gif)
 ### 使用
-  #### 继承BaseStatusPage
+####  继承BaseStatusPage
     1,实现getLayout方法，根据自己的状态类别进行视图的赋值
     2,重写getClickId，指定每个控件可以点击控件的ID，每个布局文件这个ID必须一致
   ####  Activiti中的使用
