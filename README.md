@@ -9,6 +9,22 @@
 ### 效果
 ![Alt text](https://github.com/guixin567/StuatusPage/blob/master/image/main.gif)
 ### 使用
+####  引用
+      Step 1. Add the JitPack repository to your build file
+        Add it in your root build.gradle at the end of repositories:
+
+            allprojects {
+                repositories {
+                    ...
+                    maven { url 'https://jitpack.io' }
+                }
+            }
+            
+      Step 2. Add the dependency
+
+            dependencies {
+                    compile 'com.github.guixin567:StuatusPage:1.0'
+            }
 ####  继承BaseStatusPage
     1,实现getLayout方法，根据自己的状态类别进行视图的赋值
     2,重写getClickId，指定每个控件可以点击控件的ID，每个布局文件这个ID必须一致
